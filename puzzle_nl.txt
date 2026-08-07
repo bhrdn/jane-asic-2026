@@ -1,0 +1,738 @@
+clkbuf_4 A=n625 X=n4
+clkbuf_8 A=n614 X=n625
+a211o_2 A1=n516 A2=n69 B1=n504 C1=n486 X=n64
+a211oi_2 A1=n510 A2=n516 B1=n498 C1=n494 Y=n69
+a31o_2 A1=I A2=n643 A3=n220 B1=n235 X=n233
+o21a_2 A1=n234 A2=n231 B1=n233 X=n232
+clkbuf_8 A=n614 X=n186
+or2_2 A=n237 B=n276 X=n293
+or4_2 A=n194 B=n174 C=n196 D=n197 X=n5
+a21o_2 A1=n170 A2=n205 B1=n194 X=n187
+o21a_2 A1=n170 A2=n205 B1=n5 X=n182
+clkbuf_8 A=n614 X=n308
+xor2_2 A=n248 B=n287 X=n246
+a21oi_2 A1=n244 A2=n243 B1=n255 Y=n245
+nand2_2 A=n237 B=n276 Y=n275
+a22o_2 A1=n510 A2=n271 B1=n300 B2=n498 X=n272
+and2_2 A=n21 B=n35 X=n292
+a21boi_2 A1=n510 A2=n35 B1_N=n21 Y=n38
+inv_2 A=n30 Y=n62
+xnor2_2 A=n516 B=n510 Y=n11
+a211oi_2 A1=n34 A2=n31 B1=n27 C1=n459 Y=n70
+a21boi_2 A1=n42 A2=n33 B1_N=n21 Y=n41
+o31a_2 A1=n59 A2=n46 A3=n61 B1=n65 X=n14
+and3_2 A=n21 B=n15 C=n35 X=O[0]
+and3_2 A=n21 B=n16 C=n35 X=O[2]
+a22o_2 A1=n188 A2=n53 B1=n97 B2=n190 X=n85
+dfrtp_2 CLK=n55 D=n17 Q=n21 RESET_B=rst_n
+dfrtp_2 CLK=n55 D=n25 Q=n31 RESET_B=rst_n
+dfrtp_2 CLK=n55 D=n24 Q=success RESET_B=rst_n
+and3_2 A=n21 B=n92 C=n35 X=O[7]
+and3_2 A=n21 B=n81 C=n35 X=O[5]
+o31a_2 A1=n59 A2=n85 A3=n82 B1=n50 X=n15
+o31a_2 A1=n59 A2=n43 A3=n95 B1=n96 X=n81
+a32o_2 A1=n399 A2=n19 A3=n20 B1=success B2=n22 X=n24
+dfxtp_2 CLK=n186 D=n39 Q=n498
+dfxtp_2 CLK=n55 D=n38 Q=n510
+dfxtp_2 CLK=n55 D=n10 Q=n516
+dfxtp_2 CLK=n186 D=n41 Q=n494
+a22o_2 A1=n309 A2=n87 B1=n72 B2=n514 X=n93
+a22o_2 A1=n246 A2=n87 B1=n72 B2=n496 X=n95
+xor2_2 A=n102 B=n278 X=n77
+a22o_2 A1=n259 A2=n87 B1=n72 B2=n502 X=n100
+a22o_2 A1=n310 A2=n87 B1=n72 B2=n521 X=n61
+o31a_2 A1=n59 A2=n49 A3=n100 B1=n99 X=n16
+inv_2 A=n399 Y=n18
+and3_2 A=n21 B=n12 C=n35 X=O[4]
+a21boi_2 A1=n35 A2=n11 B1_N=n21 Y=n10
+and3_2 A=n21 B=n14 C=n35 X=O[3]
+nand4_2 A=n494 B=n498 C=n516 D=n510 Y=n35
+inv_2 A=success Y=n34
+diode_2 DIODE=n448
+o21ba_2 A1=success A2=n31 B1_N=n27 X=n29
+or2_2 A=n346 B=n21 X=n17
+a32o_2 A1=n18 A2=n19 A3=n20 B1=n31 B2=n22 X=n25
+diode_2 DIODE=n474
+diode_2 DIODE=n474
+nand2b_2 A_N=n21 B=n346 Y=n22
+diode_2 DIODE=n474
+and4b_2 A_N=n21 B=n346 C=n474 D=n26 X=n20
+diode_2 DIODE=n448
+diode_2 DIODE=n474
+and2_2 A=n23 B=n448 X=n19
+nand3_2 A=n498 B=n516 C=n510 Y=n33
+nor2_2 A=n459 B=n29 Y=n32
+a21o_2 A1=n516 A2=n510 B1=n498 X=n28
+diode_2 DIODE=n448
+or4b_2 A=n459 B=success C=n27 D_N=n31 X=n30
+and3_2 A=n21 B=n36 C=n35 X=O[6]
+clkbuf_4 A=n55 X=n40
+o31a_2 A1=n59 A2=n57 A3=n60 B1=n103 X=n80
+a22o_2 A1=n66 A2=n53 B1=n97 B2=n63 X=n49
+or3_2 A=n69 B=n87 C=n104 X=n58
+o211a_2 A1=n494 A2=n33 B1=n28 C1=n21 X=n39
+diode_2 DIODE=n51
+a22o_2 A1=n323 A2=n53 B1=n97 B2=n334 X=n57
+inv_2 A=n494 Y=n42
+a22o_2 A1=n44 A2=n53 B1=n97 B2=n48 X=n43
+a22o_2 A1=n45 A2=n53 B1=n97 B2=n47 X=n46
+a22o_2 A1=n51 A2=n53 B1=n97 B2=n52 X=n54
+clkbuf_8 A=n614 X=n55
+nor2_2 A=n87 B=n104 Y=n59
+a22o_2 A1=n281 A2=n87 B1=n72 B2=n519 X=n60
+nand2b_2 A_N=n643 B=n292 Y=n255
+nor3b_2 A=n32 B=n62 C_N=n70 Y=n87
+nor3b_2 A=n70 B=n32 C_N=n62 Y=n72
+a22o_2 A1=n285 A2=n87 B1=n72 B2=n56 X=n82
+or3_2 A=n67 B=n87 C=n104 X=n50
+nor3b_2 A=n70 B=n62 C_N=n32 Y=n53
+nor3_2 A=n70 B=n32 C=n62 Y=n97
+o31a_2 A1=n59 A2=n54 A3=n73 B1=n58 X=n12
+a21oi_2 A1=n32 A2=n62 B1=n70 Y=n104
+or3_2 A=n64 B=n87 C=n104 X=n65
+or2_2 A=n292 B=n643 X=n68
+a22o_2 A1=n78 A2=n87 B1=n72 B2=n71 X=n76
+a22o_2 A1=n74 A2=n87 B1=n72 B2=n75 X=n73
+a22o_2 A1=n324 A2=n53 B1=n97 B2=n94 X=n86
+and3_2 A=n21 B=n80 C=n35 X=O[1]
+or3_2 A=n105 B=n87 C=n104 X=n96
+or3_2 A=n500 B=n87 C=n104 X=n90
+or3_2 A=n88 B=n87 C=n104 X=n89
+o31a_2 A1=n59 A2=n86 A3=n76 B1=n89 X=n36
+o31a_2 A1=n59 A2=n91 A3=n93 B1=n90 X=n92
+a22o_2 A1=n98 A2=n53 B1=n97 B2=n336 X=n91
+nor2_2 A=n255 B=n101 Y=n270
+or3_2 A=n506 B=n87 C=n104 X=n99
+or3_2 A=n497 B=n87 C=n104 X=n103
+dfrtp_2 CLK=n173 D=n157 Q=n151 RESET_B=rst_n
+dfrtp_2 CLK=n173 D=n166 Q=n146 RESET_B=rst_n
+dfrtp_2 CLK=n154 D=n155 Q=n138 RESET_B=rst_n
+nand2_2 A=I B=n643 Y=n160
+a31o_2 A1=I A2=n643 A3=n153 B1=n151 X=n152
+a31o_2 A1=I A2=n643 A3=n145 B1=n138 X=n112
+o21a_2 A1=n150 A2=n142 B1=n112 X=n155
+nand2b_2 A_N=n150 B=n142 Y=n156
+or4_2 A=n146 B=n165 C=n161 D=n160 X=n189
+and4bb_2 A_N=n719 B_N=n556 C=n356 D=n357 X=n145
+and4b_2 A_N=n556 B=n356 C=n719 D=n357 X=n106
+dfrtp_2 CLK=n173 D=n184 Q=n149 RESET_B=rst_n
+dfrtp_2 CLK=n186 D=n182 Q=n170 RESET_B=rst_n
+or4_2 A=n149 B=n168 C=n185 D=n183 X=n107
+nand2_2 A=I B=n643 Y=n183
+dfrtp_2 CLK=n154 D=n137 Q=n115 RESET_B=rst_n
+dfrtp_2 CLK=n117 D=n126 Q=n110 RESET_B=rst_n
+dfrtp_2 CLK=n117 D=n116 Q=n134 RESET_B=rst_n
+dfrtp_2 CLK=n117 D=n120 Q=n118 RESET_B=rst_n
+and2b_2 A_N=n110 B=n130 X=n377
+dfrtp_2 CLK=n173 D=n179 Q=n108 RESET_B=rst_n
+clkbuf_4 A=n154 X=n109
+a31o_2 A1=I A2=n643 A3=n119 B1=n110 X=n132
+a31o_2 A1=I A2=n643 A3=n111 B1=n134 X=n113
+and4bb_2 A_N=n719 B_N=n356 C=n556 D=n357 X=n111
+nand2_2 A=I B=n643 Y=n123
+or4_2 A=n122 B=n127 C=n121 D=n123 X=n125
+nand4_2 A=I B=n643 C=n134 D=n111 Y=n133
+nand4_2 A=I B=n643 C=n110 D=n119 Y=n128
+o21a_2 A1=n130 A2=n128 B1=n132 X=n126
+a21o_2 A1=n118 A2=n114 B1=n122 X=n124
+and4bb_2 A_N=n357 B_N=n356 C=n556 D=n719 X=n119
+and2b_2 A_N=n115 B=n141 X=n370
+nor2_2 A=n121 B=n123 Y=n114
+nand4_2 A=I B=n643 C=n115 D=n106 Y=n136
+dfrtp_2 CLK=n117 D=n129 Q=n130 RESET_B=rst_n
+dfrtp_2 CLK=n154 D=n124 Q=n122 RESET_B=rst_n
+dfrtp_2 CLK=n154 D=n131 Q=n135 RESET_B=rst_n
+o21a_2 A1=n118 A2=n114 B1=n125 X=n120
+inv_2 A=n118 Y=n127
+or4b_2 A=n357 B=n719 C=n356 D_N=n556 X=n121
+and2_2 A=n122 B=n127 X=n378
+nand2b_2 A_N=n130 B=n128 Y=n129
+nand2b_2 A_N=n135 B=n133 Y=n131
+o21a_2 A1=n135 A2=n133 B1=n113 X=n116
+and2b_2 A_N=n134 B=n135 X=n376
+o21a_2 A1=n141 A2=n136 B1=n139 X=n137
+dfrtp_2 CLK=n117 D=n140 Q=n141 RESET_B=rst_n
+clkbuf_8 A=n614 X=n117
+and2b_2 A_N=n138 B=n150 X=n144
+a31o_2 A1=I A2=n643 A3=n106 B1=n115 X=n139
+nand4_2 A=I B=n643 C=n138 D=n145 Y=n142
+nand2b_2 A_N=n141 B=n136 Y=n140
+clkbuf_4 A=n117 X=n143
+clkbuf_8 A=n614 X=n154
+or4b_2 A=n719 B=n556 C=n356 D_N=n357 X=n185
+nand4_2 A=I B=n643 C=n151 D=n153 Y=n162
+and2b_2 A_N=n151 B=n164 X=n372
+and2_2 A=n146 B=n165 X=n371
+a21o_2 A1=n148 A2=n159 B1=n146 X=n166
+o21a_2 A1=n147 A2=n178 B1=n176 X=n179
+o21a_2 A1=n148 A2=n159 B1=n189 X=n158
+and4bb_2 A_N=n556 B_N=n356 C=n719 D=n357 X=n177
+o21a_2 A1=n164 A2=n162 B1=n152 X=n157
+nand2b_2 A_N=n147 B=n178 Y=n181
+clkbuf_8 A=n614 X=n173
+and2_2 A=n149 B=n168 X=n360
+o21a_2 A1=n169 A2=n171 B1=n107 X=n175
+a21o_2 A1=n169 A2=n171 B1=n149 X=n184
+nor2_2 A=n161 B=n160 Y=n159
+or4b_2 A=n357 B=n719 C=n556 D_N=n356 X=n161
+and4bb_2 A_N=n357 B_N=n556 C=n356 D=n719 X=n153
+dfrtp_2 CLK=n154 D=n163 Q=n164 RESET_B=rst_n
+dfrtp_2 CLK=n173 D=n158 Q=n148 RESET_B=rst_n
+dfrtp_2 CLK=n117 D=n156 Q=n150 RESET_B=rst_n
+nand2b_2 A_N=n164 B=n162 Y=n163
+inv_2 A=n148 Y=n165
+and2_2 A=n194 B=n174 X=n167
+inv_2 A=n169 Y=n168
+inv_2 A=n170 Y=n174
+clkbuf_4 A=n173 X=n172
+nand4_2 A=I B=n643 C=n108 D=n177 Y=n178
+dfrtp_2 CLK=n173 D=n181 Q=n147 RESET_B=rst_n
+dfrtp_2 CLK=n186 D=n175 Q=n169 RESET_B=rst_n
+dfrtp_2 CLK=n186 D=n187 Q=n194 RESET_B=rst_n
+a31o_2 A1=I A2=n643 A3=n177 B1=n108 X=n176
+and2b_2 A_N=n108 B=n147 X=n180
+nor2_2 A=n185 B=n183 Y=n171
+dfrtp_2 CLK=n206 D=n201 Q=n193 RESET_B=rst_n
+nand2_2 A=I B=n643 Y=n226
+nor2_2 A=n217 B=n226 Y=n225
+dfrtp_2 CLK=n308 D=n236 Q=n191 RESET_B=rst_n
+dfrtp_2 CLK=n308 D=n211 Q=n213 RESET_B=rst_n
+nand2b_2 A_N=n191 B=n222 Y=n236
+clkbuf_4 A=n308 X=n192
+clkbuf_16 A=clk X=n614
+nor2_2 A=n196 B=n197 Y=n205
+a31o_2 A1=I A2=n643 A3=n195 B1=n193 X=n200
+o21a_2 A1=n202 A2=n203 B1=n200 X=n201
+and2b_2 A_N=n193 B=n202 X=n198
+nor4_2 A=n357 B=n719 C=n556 D=n356 Y=n195
+nand4_2 A=I B=n643 C=n193 D=n195 Y=n203
+nand2_2 A=I B=n643 Y=n197
+dfrtp_2 CLK=n206 D=n199 Q=n202 RESET_B=rst_n
+or4b_2 A=n357 B=n556 C=n356 D_N=n719 X=n196
+nand2b_2 A_N=n202 B=n203 Y=n199
+clkbuf_4 A=n206 X=n204
+clkbuf_8 A=n614 X=n206
+o21a_2 A1=n213 A2=n215 B1=n207 X=n216
+dfrtp_2 CLK=n308 D=n223 Q=n228 RESET_B=rst_n
+a21o_2 A1=n227 A2=n225 B1=n209 X=n229
+a31o_2 A1=I A2=n643 A3=n230 B1=n228 X=n224
+o21a_2 A1=n227 A2=n225 B1=n218 X=n221
+or4_2 A=n209 B=n219 C=n217 D=n226 X=n218
+a31o_2 A1=I A2=n643 A3=n214 B1=n210 X=n207
+and2b_2 A_N=n228 B=n191 X=n208
+and2_2 A=n209 B=n219 X=n480
+and4bb_2 A_N=n559 B_N=n629 C=n615 D=n616 X=n214
+and2b_2 A_N=n210 B=n213 X=n212
+nand2b_2 A_N=n213 B=n215 Y=n211
+dfrtp_2 CLK=n206 D=n216 Q=n210 RESET_B=rst_n
+nand4_2 A=I B=n643 C=n210 D=n214 Y=n215
+or4b_2 A=n616 B=n559 C=n629 D_N=n615 X=n217
+and4bb_2 A_N=n616 B_N=n629 C=n615 D=n559 X=n230
+and4b_2 A_N=n615 B=n629 C=n559 D=n616 X=n220
+dfrtp_2 CLK=n308 D=n221 Q=n227 RESET_B=rst_n
+dfrtp_2 CLK=n406 D=n232 Q=n235 RESET_B=rst_n
+dfrtp_2 CLK=n308 D=n229 Q=n209 RESET_B=rst_n
+inv_2 A=n227 Y=n219
+nand4_2 A=I B=n643 C=n235 D=n220 Y=n231
+o21a_2 A1=n191 A2=n222 B1=n224 X=n223
+nand4_2 A=I B=n643 C=n228 D=n230 Y=n222
+and2b_2 A_N=n235 B=n234 X=n476
+xnor2_2 A=n494 B=n284 Y=n316
+a21oi_2 A1=n510 A2=n326 B1=n494 Y=n324
+inv_2 A=n510 Y=n327
+and3_2 A=n510 B=n341 C=n326 X=n44
+o211a_2 A1=n327 A2=n498 B1=n341 C1=n516 X=n66
+o21ai_2 A1=n516 A2=n498 B1=n494 Y=n333
+and2b_2 A_N=n340 B=n343 X=n63
+inv_2 A=n494 Y=n341
+nand2b_2 A_N=n510 B=n516 Y=n343
+o221a_2 A1=n340 A2=n337 B1=n338 B2=n332 C1=n343 X=n47
+o211a_2 A1=n516 A2=n340 B1=n342 C1=n333 X=n52
+o31a_2 A1=n328 A2=n331 A3=n330 B1=n341 X=n188
+o21a_2 A1=n516 A2=n342 B1=n333 X=n94
+dfrtp_2 CLK=n273 D=n277 Q=n278 RESET_B=rst_n
+dfrtp_2 CLK=n273 D=n241 Q=n102 RESET_B=rst_n
+dfrtp_2 CLK=n308 D=n282 Q=n274 RESET_B=rst_n
+dfrtp_2 CLK=n273 D=n238 Q=n251 RESET_B=rst_n
+xnor2_2 A=n240 B=n266 Y=n254
+and3_2 A=n510 B=n516 C=n498 X=n284
+xor2_2 A=n102 B=n315 X=n310
+nor3b_2 A=n510 B=n498 C_N=n516 Y=n330
+nor3b_2 A=n643 B=n261 C_N=n254 Y=n264
+a2111oi_2 A1=n510 A2=n498 B1=n494 C1=n326 D1=n325 Y=n45
+a21boi_2 A1=I A2=n254 B1_N=n643 Y=n262
+dfstp_2 CLK=n273 D=n286 Q=n237 SET_B=rst_n
+dfstp_2 CLK=n273 D=n288 Q=n248 SET_B=rst_n
+dfstp_2 CLK=n186 D=n299 Q=n258 SET_B=rst_n
+dfstp_2 CLK=n273 D=n265 Q=n283 SET_B=rst_n
+a211o_2 A1=n510 A2=n498 B1=n307 C1=n297 X=n247
+xnor2_2 A=n274 B=n250 Y=n101
+a221o_2 A1=n643 A2=n274 B1=n283 B2=n294 C1=n253 X=n265
+and2b_2 A_N=n256 B=n263 X=n257
+xor2_2 A=n102 B=n283 X=n250
+a22oi_2 A1=n510 A2=n307 B1=n306 B2=n318 Y=n314
+a221o_2 A1=n643 A2=n102 B1=n294 B2=n251 C1=n242 X=n238
+a221o_2 A1=n643 A2=n237 B1=n263 B2=n261 C1=n294 X=n239
+o22a_2 A1=n102 A2=n68 B1=n264 B2=n239 X=n241
+o21a_2 A1=n244 A2=n243 B1=n245 X=n242
+xnor2_2 A=n258 B=n77 Y=n261
+xor2_2 A=n258 B=n276 X=n256
+xor2_2 A=n278 B=n306 X=n249
+xnor2_2 A=n274 B=n240 Y=n276
+xnor2_2 A=n237 B=n252 Y=n259
+o21ai_2 A1=n319 A2=n320 B1=n247 Y=n252
+o21ai_2 A1=I A2=n254 B1=n262 Y=n260
+xor2_2 A=n258 B=n251 X=n243
+nor2_2 A=n254 B=n255 Y=n253
+nand2_2 A=n498 B=n297 Y=n313
+and3b_2 A_N=n643 B=n254 C=n256 X=n279
+xnor2_2 A=n274 B=n280 Y=n298
+a31o_2 A1=n498 A2=n307 A3=n318 B1=n314 X=n311
+a21o_2 A1=n643 A2=n278 B1=n294 X=n301
+xnor2_2 A=n237 B=n248 Y=n280
+xnor2_2 A=n280 B=n77 Y=n290
+o32a_2 A1=n257 A2=n279 A3=n301 B1=n68 B2=n237 X=n286
+a221o_2 A1=n643 A2=n258 B1=n278 B2=n294 C1=n270 X=n277
+xnor2_2 A=n268 B=n249 Y=n281
+or3b_2 A=n510 B=n498 C_N=n516 X=n305
+clkbuf_8 A=n614 X=n273
+xnor2_2 A=n251 B=n102 Y=n240
+xnor2_2 A=n248 B=n283 Y=n266
+xor2_2 A=n237 B=n278 X=n244
+xnor2_2 A=n274 B=n272 Y=n78
+xor2_2 A=n251 B=n267 X=n74
+or3_2 A=n304 B=n269 C=n271 X=n268
+a22o_2 A1=n643 A2=n251 B1=n248 B2=n294 X=n289
+nand2b_2 A_N=n516 B=n510 Y=n300
+nand2_2 A=n300 B=n303 Y=n287
+nor2_2 A=n292 B=n643 Y=n294
+and2b_2 A_N=n510 B=n516 X=n297
+a22o_2 A1=n643 A2=n248 B1=n294 B2=n274 X=n295
+a31o_2 A1=n291 A2=n275 A3=n293 B1=n295 X=n282
+a21o_2 A1=n291 A2=n290 B1=n289 X=n288
+and2b_2 A_N=n643 B=n292 X=n291
+nor2_2 A=n510 B=n516 Y=n269
+nor2_2 A=n498 B=n494 Y=n271
+nand2_2 A=n516 B=n494 Y=n296
+o221a_2 A1=n258 A2=n68 B1=n255 B2=n298 C1=n260 X=n299
+a21oi_2 A1=n313 A2=n296 B1=n304 Y=n312
+clkbuf_4 A=n273 X=n302
+a22o_2 A1=n304 A2=n306 B1=n316 B2=n305 X=n303
+inv_2 A=n494 Y=n307
+nor2_2 A=n510 B=n307 Y=n304
+nand2_2 A=n510 B=n516 Y=n318
+o31a_2 A1=n498 A2=n304 A3=n297 B1=n296 X=n267
+inv_2 A=n313 Y=n319
+xnor2_2 A=n258 B=n312 Y=n285
+o32a_2 A1=n319 A2=n316 A3=n321 B1=n317 B2=n320 X=n315
+xnor2_2 A=n283 B=n311 Y=n309
+nor2_2 A=n498 B=n317 Y=n321
+or2_2 A=n516 B=n498 X=n306
+nand2_2 A=n306 B=n316 Y=n320
+and2b_2 A_N=n269 B=n318 X=n317
+nor2_2 A=n643 B=n254 Y=n263
+and2b_2 A_N=n516 B=n510 X=n331
+conb_1 HI=n322 LO=n98
+o21a_2 A1=n327 A2=n328 B1=n341 X=n323
+nor2_2 A=n510 B=n516 Y=n325
+and3_2 A=n510 B=n516 C=n498 X=n328
+conb_1 HI=n329 LO=n51
+a21oi_2 A1=n340 A2=n337 B1=n339 Y=n190
+nor2_2 A=n494 B=n337 Y=n338
+a21oi_2 A1=n510 A2=n494 B1=n498 Y=n332
+mux2_1 A0=n516 A1=n494 S=n498 X=n339
+and3b_2 A_N=n494 B=n337 C=n498 X=n48
+and3b_2 A_N=n494 B=n498 C=n516 X=n334
+conb_1 HI=n335 LO=n336
+and2b_2 A_N=n516 B=n510 X=n337
+or2_2 A=n498 B=n494 X=n340
+and2b_2 A_N=n498 B=n516 X=n326
+nand2_2 A=n510 B=n340 Y=n342
+dfrtp_2 CLK=n206 D=n345 Q=n346 RESET_B=rst_n
+a31o_2 A1=n2 A2=n472 A3=n643 B1=n346 X=n345
+dfrtp_2 CLK=n387 D=n358 Q=n356 RESET_B=rst_n
+and3_2 A=n357 B=n719 C=n643 X=n351
+dfrtp_2 CLK=n387 D=n349 Q=n556 RESET_B=rst_n
+dfrtp_2 CLK=n387 D=n355 Q=n719 RESET_B=rst_n
+a221oi_2 A1=n643 A2=n2 B1=n350 B2=n556 C1=n347 Y=n349
+and4bb_2 A_N=n719 B_N=n356 C=n556 D=n357 X=n2
+nor2_2 A=n2 B=n354 Y=n355
+diode_2 DIODE=enable
+and2b_2 A_N=n346 B=enable X=n643
+a211oi_2 A1=n643 A2=n2 B1=n353 C1=n351 Y=n352
+a21oi_2 A1=n719 A2=n643 B1=n357 Y=n353
+dfrtp_2 CLK=n387 D=n352 Q=n357 RESET_B=rst_n
+xnor2_2 A=n719 B=n643 Y=n354
+xor2_2 A=n356 B=n351 X=n358
+a41oi_2 A1=n357 A2=n719 A3=n356 A4=n643 B1=n556 Y=n347
+and4_2 A=n357 B=n719 C=n356 D=n643 X=n350
+dfrtp_2 CLK=n393 D=n383 Q=n385 RESET_B=rst_n
+a22o_2 A1=n418 A2=n392 B1=n362 B2=n363 X=n374
+dfrtp_2 CLK=n206 D=n390 Q=n392 RESET_B=rst_n
+dfrtp_2 CLK=n387 D=n395 Q=n394 RESET_B=rst_n
+clkbuf_4 A=n393 X=n359
+mux2_1 A0=n365 A1=n364 S=n643 X=n367
+mux2_1 A0=n364 A1=n392 S=n643 X=n396
+and4_2 A=n167 B=n198 C=n180 D=n360 X=n379
+mux2_1 A0=n366 A1=n365 S=n643 X=n361
+clkbuf_8 A=n614 X=n393
+and3_2 A=n369 B=n379 C=n380 X=n26
+dfrtp_2 CLK=n206 D=n367 Q=n365 RESET_B=rst_n
+clkbuf_8 A=n614 X=n387
+mux2_1 A0=n384 A1=n394 S=n643 X=n368
+and4_2 A=n372 B=n371 C=n370 D=n144 X=n369
+a221o_2 A1=n414 A2=n389 B1=n409 B2=n375 C1=n374 X=n373
+and3_2 A=n377 B=n378 C=n376 X=n380
+a31o_2 A1=I A2=n643 A3=n373 B1=n382 X=n381
+mux2_1 A0=n385 A1=n384 S=n643 X=n383
+mux2_1 A0=n400 A1=n385 S=n643 X=n401
+clkbuf_4 A=n387 X=n386
+dfrtp_2 CLK=n393 D=n391 Q=n363 RESET_B=rst_n
+dfrtp_2 CLK=n393 D=n381 Q=n382 RESET_B=rst_n
+dfrtp_2 CLK=n393 D=n388 Q=n375 RESET_B=rst_n
+mux2_1 A0=n392 A1=I S=n643 X=n390
+dfrtp_2 CLK=n406 D=n368 Q=n384 RESET_B=rst_n
+dfrtp_2 CLK=n406 D=n402 Q=n397 RESET_B=rst_n
+dfrtp_2 CLK=n406 D=n398 Q=n389 RESET_B=rst_n
+mux2_1 A0=n375 A1=n389 S=n643 X=n388
+dfrtp_2 CLK=n393 D=n361 Q=n366 RESET_B=rst_n
+mux2_1 A0=n363 A1=n375 S=n643 X=n391
+dfrtp_2 CLK=n387 D=n396 Q=n364 RESET_B=rst_n
+mux2_1 A0=n389 A1=n397 S=n643 X=n398
+mux2_1 A0=n394 A1=n366 S=n643 X=n395
+inv_2 A=n382 Y=n399
+mux2_1 A0=n397 A1=n400 S=n643 X=n402
+dfrtp_2 CLK=n406 D=n401 Q=n400 RESET_B=rst_n
+and2b_2 A_N=n430 B=n455 X=n450
+or3_2 A=n441 B=n452 C=n440 X=n426
+and4_2 A=n446 B=n436 C=n434 D=n433 X=n427
+nor2_2 A=n434 B=n443 Y=n437
+and2b_2 A_N=n427 B=n438 X=n442
+nor3_2 A=n429 B=n446 C=n426 Y=n449
+inv_2 A=n434 Y=n458
+o21a_2 A1=n447 A2=n432 B1=n431 X=n451
+nand2_2 A=n428 B=n429 Y=n447
+clkbuf_8 A=n614 X=n465
+inv_2 A=n2 Y=n417
+dfrtp_2 CLK=n465 D=n407 Q=n404 RESET_B=rst_n
+inv_2 A=n404 Y=n413
+clkbuf_8 A=n614 X=n423
+dfrtp_2 CLK=n465 D=n424 Q=n408 RESET_B=rst_n
+dfrtp_2 CLK=n465 D=n416 Q=n403 RESET_B=rst_n
+a31o_2 A1=n2 A2=n643 A3=n421 B1=n408 X=n424
+clkbuf_8 A=n614 X=n406
+o211a_2 A1=n404 A2=n420 B1=n419 C1=n643 X=n415
+or4bb_2 A=n719 B=n356 C_N=n556 D_N=n357 X=n414
+or4_2 A=n719 B=n357 C=n356 D=n556 X=n418
+a21oi_2 A1=n413 A2=n420 B1=n412 Y=n407
+mux2_1 A0=n420 A1=n419 S=n404 X=n421
+or2_2 A=n403 B=I X=n419
+clkbuf_4 A=n406 X=n405
+nand2_2 A=n403 B=I Y=n420
+conb_1 HI=n409 LO=n410
+inv_2 A=n643 Y=n411
+mux2_1 A0=n2 A1=n413 S=n411 X=n412
+a22o_2 A1=n411 A2=n403 B1=n415 B2=n417 X=n416
+buf_2 A=n418 X=n362
+clkbuf_4 A=n423 X=n422
+inv_2 A=n408 Y=n23
+clkbuf_4 A=n465 X=n425
+a31o_2 A1=n436 A2=n434 A3=n433 B1=n446 X=n438
+a31o_2 A1=n428 A2=n434 A3=n433 B1=n429 X=n431
+and2_2 A=n428 B=n429 X=n436
+and3_2 A=n453 B=n454 C=n434 X=n430
+o21a_2 A1=n452 A2=n430 B1=n432 X=n445
+nand2_2 A=n434 B=n433 Y=n432
+and3_2 A=n435 B=n457 C=n436 X=n27
+and2b_2 A_N=n453 B=n441 X=n457
+dfrtp_2 CLK=n423 D=n445 Q=n452 RESET_B=rst_n
+a32o_2 A1=I A2=n643 A3=n457 B1=n458 B2=n453 X=n456
+dfrtp_2 CLK=n423 D=n450 Q=n454 RESET_B=rst_n
+nor4b_2 A=n453 B=n454 C=n428 D_N=n449 Y=n459
+dfrtp_2 CLK=n625 D=n456 Q=n453 RESET_B=rst_n
+xor2_2 A=n440 B=n427 X=n439
+dfrtp_2 CLK=n625 D=n437 Q=n441 RESET_B=rst_n
+dfrtp_2 CLK=n625 D=n439 Q=n440 RESET_B=rst_n
+a21oi_2 A1=I A2=n643 B1=n441 Y=n443
+and3_2 A=n441 B=I C=n643 X=n434
+and4bb_2 A_N=n454 B_N=n440 C=n446 D=n452 X=n435
+xnor2_2 A=n428 B=n432 Y=n444
+dfrtp_2 CLK=n423 D=n451 Q=n429 RESET_B=rst_n
+dfrtp_2 CLK=n423 D=n444 Q=n428 RESET_B=rst_n
+dfrtp_2 CLK=n423 D=n442 Q=n446 RESET_B=rst_n
+and4_2 A=n453 B=n454 C=n428 D=n449 X=n448
+and3_2 A=n453 B=n454 C=n452 X=n433
+a21o_2 A1=n453 A2=n434 B1=n454 X=n455
+a31o_2 A1=n2 A2=n643 A3=n722 B1=n541 X=n469
+and4_2 A=n2 B=n643 C=n541 D=n722 X=n467
+dfrtp_2 CLK=n465 D=n471 Q=n538 RESET_B=rst_n
+dfrtp_2 CLK=n465 D=n466 Q=n542 RESET_B=rst_n
+o311a_2 A1=n722 A2=n460 A3=n462 B1=n464 C1=n468 X=n471
+and3_2 A=n2 B=n643 C=n460 X=n461
+dfrtp_2 CLK=n423 D=n473 Q=n722 RESET_B=rst_n
+mux2_1 A0=n461 A1=n462 S=n722 X=n473
+nand2_2 A=n2 B=n643 Y=n462
+o211a_2 A1=n460 A2=n462 B1=n469 C1=n470 X=n463
+dfrtp_2 CLK=n465 D=n463 Q=n541 RESET_B=rst_n
+nand3b_2 A_N=n542 B=n538 C=n541 Y=n460
+nand3_2 A=n542 B=n538 C=n467 Y=n464
+a21o_2 A1=n542 A2=n467 B1=n538 X=n468
+inv_2 A=n467 Y=n470
+xor2_2 A=n542 B=n467 X=n466
+nor2_2 A=n722 B=n460 Y=n472
+and3_2 A=n475 B=n481 C=n479 X=n474
+and4_2 A=n478 B=n610 C=n476 D=n477 X=n475
+and3_2 A=n208 B=n480 C=n212 X=n479
+and4_2 A=n485 B=n484 C=n482 D=n483 X=n481
+nor2_2 A=n731 B=n709 Y=n562
+nor2_2 A=n738 B=n681 Y=n575
+nor2_2 A=n684 B=n670 Y=n702
+xnor2_2 A=n547 B=n558 Y=n528
+xor2_2 A=n705 B=n700 X=n673
+o211a_2 A1=n730 A2=n683 B1=n528 C1=n707 X=n726
+o311a_2 A1=n702 A2=n673 A3=n581 B1=n528 C1=n678 X=n586
+o2bb2a_2 A1_N=n356 A2_N=n544 B1=n703 B2=n542 X=n546
+xor2_2 A=n722 B=n542 X=n704
+a21o_2 A1=n679 A2=n727 B1=n724 X=n705
+nand2_2 A=n538 B=n704 Y=n723
+a31o_2 A1=n541 A2=n542 A3=n538 B1=n539 X=n535
+a21oi_2 A1=n541 A2=n704 B1=n725 Y=n544
+nand2_2 A=n722 B=n542 Y=n532
+nor2_2 A=n541 B=n723 Y=n721
+mux2_1 A0=n683 A1=n670 S=n717 X=n1
+inv_2 A=n666 Y=n588
+o22ai_2 A1=n670 A2=n697 B1=n662 B2=n560 Y=n677
+xnor2_2 A=n679 B=n576 Y=n670
+a211o_2 A1=n670 A2=n712 B1=n711 C1=n673 X=n585
+nand2b_2 A_N=n510 B=n498 Y=n509
+nand2_2 A=n498 B=n494 Y=n503
+nor2_2 A=n516 B=n494 Y=n505
+o31a_2 A1=n522 A2=n489 A3=n518 B1=n488 X=n519
+and4b_2 A_N=n494 B=n498 C=n516 D=n510 X=n486
+o22a_2 A1=n494 A2=n501 B1=n503 B2=n515 X=n71
+and2b_2 A_N=n516 B=n498 X=n522
+nor3_2 A=n498 B=n515 C=n511 Y=n518
+o21ai_2 A1=n731 A2=n659 B1=n673 Y=n525
+o211a_2 A1=n550 A2=n572 B1=n568 C1=n524 X=n615
+a221o_2 A1=n673 A2=n677 B1=n574 B2=n0 C1=n571 X=n549
+xnor2_2 A=n523 B=n546 Y=n576
+xnor2_2 A=n530 B=n531 Y=n571
+xor2_2 A=n547 B=n558 X=n560
+xor2_2 A=n530 B=n531 X=n550
+or3_2 A=n571 B=n726 C=n564 X=n565
+o211a_2 A1=n550 A2=n573 B1=n549 C1=n524 X=n629
+o22a_2 A1=n516 A2=n498 B1=n487 B2=n486 X=n67
+nor4b_2 A=n510 B=n516 C=n498 D_N=n494 Y=n504
+a31oi_2 A1=n495 A2=n491 A3=n490 B1=n493 Y=n489
+o32ai_2 A1=n522 A2=n489 A3=n517 B1=n491 B2=n510 Y=n75
+nand2b_2 A_N=n498 B=n494 Y=n491
+or3_2 A=n487 B=n486 C=n504 X=n88
+a21oi_2 A1=n510 A2=n516 B1=n494 Y=n487
+a311o_2 A1=n495 A2=n491 A3=n490 B1=n492 C1=n493 X=n488
+nand2b_2 A_N=n494 B=n498 Y=n490
+a21oi_2 A1=n510 A2=n516 B1=n494 Y=n493
+o21bai_2 A1=n515 A2=n491 B1_N=n513 Y=n56
+nand2_2 A=n510 B=n516 Y=n501
+and4bb_2 A_N=n498 B_N=n494 C=n510 D=n516 X=n105
+nor2_2 A=n494 B=n501 Y=n496
+a21o_2 A1=n510 A2=n505 B1=n504 X=n497
+nor3_2 A=n510 B=n516 C=n498 Y=n507
+conb_1 HI=n499 LO=n500
+and2_2 A=n501 B=n503 X=n502
+a31o_2 A1=n510 A2=n498 A3=n505 B1=n507 X=n506
+and2b_2 A_N=n498 B=n510 X=n492
+conb_1 HI=n508 LO=n514
+a21o_2 A1=n509 A2=n520 B1=n516 X=n512
+nand2b_2 A_N=n498 B=n510 Y=n520
+and2_2 A=n516 B=n509 X=n517
+and3b_2 A_N=n515 B=n509 C=n493 X=n513
+and2_2 A=n510 B=n516 X=n511
+xnor2_2 A=n513 B=n512 Y=n521
+nor2_2 A=n510 B=n516 Y=n515
+nor2_2 A=n548 B=n543 Y=n700
+nand2_2 A=n523 B=n546 Y=n727
+a21o_2 A1=n705 A2=n700 B1=n548 X=n547
+a211o_2 A1=n673 A2=n720 B1=n1 C1=n528 X=n578
+o22ai_2 A1=n541 A2=n723 B1=n540 B2=n535 Y=n534
+a21o_2 A1=n536 A2=n539 B1=n537 X=n531
+and3_2 A=n552 B=n554 C=n553 X=n543
+or3_2 A=n721 B=n539 C=n533 X=n553
+nor2_2 A=n529 B=n706 Y=n524
+and3_2 A=n528 B=n714 C=n526 X=n527
+a21oi_2 A1=n547 A2=n534 B1=n701 Y=n530
+nor2_2 A=n523 B=n546 Y=n724
+and2b_2 A_N=n701 B=n534 X=n558
+and3_2 A=n532 B=n723 C=n557 X=n533
+nor2_2 A=n530 B=n531 Y=n529
+nor2_2 A=n532 B=n557 Y=n539
+nand2_2 A=n541 B=n542 Y=n536
+a21oi_2 A1=n538 A2=n536 B1=n539 Y=n537
+a21oi_2 A1=n541 A2=n538 B1=n542 Y=n540
+a21oi_2 A1=n552 A2=n554 B1=n553 Y=n548
+o211a_2 A1=n550 A2=n545 B1=n579 C1=n524 X=n616
+xnor2_2 A=n556 B=n555 Y=n523
+xnor2_2 A=n536 B=n551 Y=n555
+xnor2_2 A=n541 B=n538 Y=n557
+xor2_2 A=n538 B=n704 X=n551
+nand2b_2 A_N=n536 B=n551 Y=n552
+nand2_2 A=n556 B=n555 Y=n554
+o21ai_2 A1=n560 A2=n587 B1=n567 Y=n573
+or2_2 A=n660 B=n582 X=n589
+a21oi_2 A1=n730 A2=n688 B1=n528 Y=n564
+a21o_2 A1=n560 A2=n584 B1=n527 X=n545
+and3_2 A=n670 B=n588 C=n663 X=n715
+o21ai_2 A1=n683 A2=n715 B1=n673 Y=n526
+mux2_1 A0=n580 A1=n713 S=n560 X=n572
+a31o_2 A1=n560 A2=n566 A3=n671 B1=n550 X=n563
+mux2_1 A0=n589 A1=n577 S=n673 X=n561
+o211a_2 A1=n586 A2=n563 B1=n524 C1=n565 X=n559
+o211ai_2 A1=n560 A2=n561 B1=n578 C1=n550 Y=n579
+o32a_2 A1=n673 A2=n581 A3=n661 B1=n575 B2=n675 X=n580
+a21oi_2 A1=n560 A2=n669 B1=n673 Y=n0
+or2_2 A=n560 B=n562 X=n574
+a211o_2 A1=n560 A2=n569 B1=n570 C1=n571 X=n568
+o32a_2 A1=n673 A2=n581 A3=n682 B1=n675 B2=n583 X=n587
+a21bo_2 A1=n673 A2=n668 B1_N=n585 X=n584
+dfrtp_2 CLK=n653 D=n657 Q=n658 RESET_B=rst_n
+dfrtp_2 CLK=n653 D=n622 Q=n609 RESET_B=rst_n
+dfrtp_2 CLK=n594 D=n595 Q=n600 RESET_B=rst_n
+clkbuf_4 A=n653 X=n590
+clkbuf_8 A=n614 X=n594
+dfrtp_2 CLK=n594 D=n606 Q=n592 RESET_B=rst_n
+dfrtp_2 CLK=n406 D=n599 Q=n234 RESET_B=rst_n
+dfrtp_2 CLK=n653 D=n632 Q=n650 RESET_B=rst_n
+dfrtp_2 CLK=n625 D=n636 Q=n626 RESET_B=rst_n
+a31o_2 A1=I A2=n643 A3=n591 B1=n626 X=n635
+a21o_2 A1=n650 A2=n628 B1=n624 X=n627
+inv_2 A=n650 Y=n623
+or4_2 A=n624 B=n623 C=n649 D=n652 X=n651
+clkbuf_4 A=n594 X=n593
+o21a_2 A1=n592 A2=n608 B1=n612 X=n605
+nand2_2 A=I B=n643 Y=n620
+o21a_2 A1=n621 A2=n596 B1=n618 X=n617
+a21o_2 A1=n621 A2=n596 B1=n609 X=n622
+and2_2 A=n624 B=n623 X=n483
+dfrtp_2 CLK=n594 D=n617 Q=n621 RESET_B=rst_n
+a31o_2 A1=I A2=n643 A3=n611 B1=n607 X=n612
+nand2b_2 A_N=n634 B=n633 Y=n613
+nand2b_2 A_N=n234 B=n231 Y=n599
+nand4_2 A=I B=n643 C=n626 D=n591 Y=n633
+o21a_2 A1=n600 A2=n603 B1=n604 X=n598
+nand4_2 A=I B=n643 C=n597 D=n602 Y=n603
+and4bb_2 A_N=n559 B_N=n615 C=n629 D=n616 X=n602
+dfrtp_2 CLK=n594 D=n605 Q=n607 RESET_B=rst_n
+nand2b_2 A_N=n600 B=n603 Y=n595
+and2b_2 A_N=n597 B=n600 X=n477
+dfrtp_2 CLK=n594 D=n598 Q=n597 RESET_B=rst_n
+a31o_2 A1=I A2=n643 A3=n602 B1=n597 X=n604
+inv_2 A=n621 Y=n601
+nand2b_2 A_N=n592 B=n608 Y=n606
+and2b_2 A_N=n607 B=n592 X=n478
+and2_2 A=n609 B=n601 X=n610
+and2b_2 A_N=n626 B=n634 X=n482
+nand4_2 A=I B=n643 C=n607 D=n611 Y=n608
+and4bb_2 A_N=n616 B_N=n615 C=n629 D=n559 X=n611
+dfrtp_2 CLK=n625 D=n613 Q=n634 RESET_B=rst_n
+dfrtp_2 CLK=n653 D=n627 Q=n624 RESET_B=rst_n
+clkbuf_8 A=n614 X=n653
+or4b_2 A=n616 B=n559 C=n615 D_N=n629 X=n619
+or4_2 A=n609 B=n601 C=n619 D=n620 X=n618
+nor2_2 A=n619 B=n620 Y=n596
+nand2_2 A=I B=n643 Y=n641
+and2_2 A=n640 B=n639 X=n485
+nand2_2 A=I B=n643 Y=n652
+or4b_2 A=n559 B=n615 C=n629 D_N=n616 X=n649
+nand4_2 A=I B=n643 C=n646 D=n642 Y=n654
+a21o_2 A1=n637 A2=n630 B1=n640 X=n648
+and2b_2 A_N=n646 B=n658 X=n484
+dfrtp_2 CLK=n625 D=n648 Q=n640 RESET_B=rst_n
+nor4_2 A=n616 B=n559 C=n615 D=n629 Y=n642
+and4bb_2 A_N=n615 B_N=n629 C=n559 D=n616 X=n591
+o21a_2 A1=n637 A2=n630 B1=n638 X=n631
+dfrtp_2 CLK=n653 D=n631 Q=n637 RESET_B=rst_n
+or4b_2 A=n616 B=n615 C=n629 D_N=n559 X=n647
+nor2_2 A=n647 B=n641 Y=n630
+o21a_2 A1=n650 A2=n628 B1=n651 X=n632
+inv_2 A=n637 Y=n639
+o21a_2 A1=n634 A2=n633 B1=n635 X=n636
+or4_2 A=n640 B=n639 C=n647 D=n641 X=n638
+a31o_2 A1=I A2=n643 A3=n642 B1=n646 X=n644
+diode_2 DIODE=n559
+nor2_2 A=n649 B=n652 Y=n628
+dfrtp_2 CLK=n653 D=n655 Q=n646 RESET_B=rst_n
+o21a_2 A1=n658 A2=n654 B1=n644 X=n655
+nand2b_2 A_N=n658 B=n654 Y=n657
+xor2_2 A=n728 B=n737 X=n676
+o22a_2 A1=n731 A2=n717 B1=n695 B2=n734 X=n694
+o211a_2 A1=n733 A2=n676 B1=n670 C1=n684 X=n686
+and4bb_2 A_N=n722 B_N=n541 C=n542 D=n538 X=n701
+xnor2_2 A=n728 B=n737 Y=n664
+xor2_2 A=n679 B=n576 X=n731
+or3_2 A=n673 B=n683 C=n686 X=n688
+a22o_2 A1=n697 A2=n683 B1=n698 B2=n670 X=n577
+nor2_2 A=n670 B=n685 Y=n661
+nand2_2 A=n673 B=n674 Y=n678
+nor2_2 A=n670 B=n738 Y=n683
+nor2_2 A=n731 B=n720 Y=n660
+or3_2 A=n733 B=n731 C=n698 X=n662
+or3_2 A=n733 B=n691 C=n667 X=n710
+inv_2 A=n698 Y=n659
+nand2_2 A=n670 B=n697 Y=n681
+o21a_2 A1=n733 A2=n681 B1=n693 X=n716
+or2_2 A=n670 B=n720 X=n695
+a21bo_2 A1=n664 A2=n693 B1_N=n680 X=n566
+a31o_2 A1=n731 A2=n709 A3=n663 B1=n690 X=n689
+o31ai_2 A1=n733 A2=n731 A3=n676 B1=n684 Y=n672
+a32o_2 A1=n673 A2=n681 A3=n695 B1=n694 B2=n680 X=n569
+nand2b_2 A_N=n690 B=n720 Y=n717
+o21a_2 A1=n731 A2=n666 B1=n720 X=n582
+o31ai_2 A1=n670 A2=n667 A3=n659 B1=n673 Y=n675
+mux2_1 A0=n685 A1=n710 S=n731 X=n674
+o21ba_2 A1=n670 A2=n712 B1_N=n668 X=n669
+nand2_2 A=n673 B=n672 Y=n671
+a21oi_2 A1=n670 A2=n690 B1=n685 Y=n682
+o21a_2 A1=n731 A2=n696 B1=n695 X=n692
+or2_2 A=n670 B=n691 X=n693
+o21a_2 A1=n733 A2=n698 B1=n731 X=n711
+or3_2 A=n673 B=n562 C=n660 X=n707
+or2_2 A=n676 B=n691 X=n698
+nand2_2 A=n728 B=n666 Y=n712
+nand2_2 A=n357 B=n708 Y=n3
+or4_2 A=n673 B=n528 C=n710 D=n711 X=n567
+o211a_2 A1=n722 A2=n541 B1=n542 C1=n538 X=n706
+and2b_2 A_N=n737 B=n739 X=n740
+nor2_2 A=n664 B=n691 Y=n738
+nand2_2 A=n736 B=n735 Y=n739
+a311o_2 A1=n728 A2=n673 A3=n740 B1=n683 C1=n715 X=n714
+a21oi_2 A1=n731 A2=n738 B1=n673 Y=n680
+and2_2 A=n709 B=n663 X=n696
+xor2_2 A=n356 B=n544 X=n699
+xor2_2 A=n722 B=n541 X=n708
+a32o_2 A1=n357 A2=n708 A3=n699 B1=n728 B2=n737 X=n679
+xnor2_2 A=n357 B=n708 Y=n736
+mux2_1 A0=n716 A1=n689 S=n673 X=n713
+o221a_2 A1=n667 A2=n525 B1=n692 B2=n673 C1=n528 X=n570
+xnor2_2 A=n3 B=n699 Y=n728
+and2_2 A=n719 B=n722 X=n729
+and3_2 A=n670 B=n664 C=n690 X=n581
+nor2_2 A=n718 B=n739 Y=n666
+nand2_2 A=n728 B=n733 Y=n684
+nor2_2 A=n736 B=n732 Y=n733
+nand2_2 A=n664 B=n691 Y=n697
+or2_2 A=n729 B=n718 X=n732
+nand2_2 A=n719 B=n722 Y=n735
+or3_2 A=n733 B=n664 C=n691 X=n685
+or2_2 A=n676 B=n740 X=n720
+nand2_2 A=n673 B=n681 Y=n730
+and2_2 A=n732 B=n740 X=n690
+nand2_2 A=n722 B=n541 Y=n703
+nor2_2 A=n719 B=n722 Y=n718
+nor2_2 A=n541 B=n542 Y=n725
+nand2_2 A=n728 B=n740 Y=n709
+nor2_2 A=n684 B=n731 Y=n668
+nor2_2 A=n729 B=n718 Y=n734
+nor2_2 A=n731 B=n738 Y=n583
+nand2_2 A=n732 B=n664 Y=n663
+nor2_2 A=n664 B=n666 Y=n667
+nor2_2 A=n734 B=n740 Y=n691
+nor2_2 A=n736 B=n735 Y=n737

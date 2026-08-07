@@ -1,0 +1,7 @@
+solver
+*.cmi
+*.cmx
+*.cmo
+*.o
+puzzle.cnf
+puzzle.model
